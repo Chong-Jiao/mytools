@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# For visualizing the Gabor filter, part of codes is from https://en.wikipedia.org/wiki/Gabor_filter
+
 def gabor_fn(sigma, theta, Lambda, psi, gamma):
     sigma_x = sigma
     sigma_y = float(sigma) / gamma
